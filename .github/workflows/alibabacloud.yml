@@ -28,12 +28,12 @@ on:
 
 # Environment variables available to all jobs and steps in this workflow.
 env:
-  REGION_ID: cn-hongkong
-  REGISTRY: registry.cn-hangzhou.aliyuncs.com
-  NAMESPACE: ljingnamespace
+  REGION_ID: ap-southeast-3
+  REGISTRY: registry-intl.ap-southeast-3.aliyuncs.com
+  NAMESPACE: jimmy-registry
   IMAGE: repo
   TAG: ${{ github.sha }}
-  ACK_CLUSTER_ID: cb310f931cd6d478cb05063e9f5fbd1fe
+  ACK_CLUSTER_ID: c259cd9a0a89247e7ac680537ca874723
   ACK_DEPLOYMENT_NAME: nginx-deployment
 
   ACR_EE_REGISTRY: hongkong-registry.cn-hongkong.cr.aliyuncs.com
